@@ -7,7 +7,7 @@
   12V pour dévérouiller le verrou
   
   Cable male-femelle pour le verrou:
-  https://www.amazon.fr/YoungerY-Paires-connecteur-SM2-54-amarrage/dp/B07NW2GPBP
+  https://fr.dhgate.com/product/sm2-54-2p-sm-2-54mm-pitch-2pin-connector/398362726.html#seo=WAP
   
 ## Lecteur de carte
 
