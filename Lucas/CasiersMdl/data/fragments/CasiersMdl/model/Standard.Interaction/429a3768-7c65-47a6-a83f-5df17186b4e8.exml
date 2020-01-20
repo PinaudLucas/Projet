@@ -13,20 +13,20 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="31d023fb-99d7-4a94-9668-99152d609f44"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">65</ATT>
+            <ATT name="LineNumber">73</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="" mc="Standard.Message" uid="6d668d87-4a75-46ba-9725-c5bb39e8f893"/>
+                <ID name="EnvoyerCode()" mc="Standard.Message" uid="6d668d87-4a75-46ba-9725-c5bb39e8f893"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[1]]></ATT>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Sequence"><![CDATA[2]]></ATT>
+                  <ATT name="Name"><![CDATA[EnvoyerCode()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -48,7 +48,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="72086cee-8371-45cc-9a12-077b97113856"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">65</ATT>
+            <ATT name="LineNumber">73</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -68,7 +68,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="efe67e80-5330-43e6-b801-844afd9afc9d"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">241</ATT>
+            <ATT name="LineNumber">275</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -83,7 +83,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionSpecification" uid="a5a9e24d-4a38-4691-806a-99e25f4806b9"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">65</ATT>
+            <ATT name="LineNumber">73</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -103,20 +103,20 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="25291a2b-4eed-4a12-b6fe-a20617ff9c23"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">79</ATT>
+            <ATT name="LineNumber">92</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="" mc="Standard.Message" uid="048a1215-aa22-454e-8003-525f0b82e012"/>
+                <ID name="EnvoyerCode()" mc="Standard.Message" uid="048a1215-aa22-454e-8003-525f0b82e012"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[2]]></ATT>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Sequence"><![CDATA[3]]></ATT>
+                  <ATT name="Name"><![CDATA[EnvoyerCode()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -138,7 +138,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="ea461899-71ce-4dde-8d2e-961398f64685"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">81</ATT>
+            <ATT name="LineNumber">94</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -158,20 +158,20 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="3d591918-be61-4320-ac13-fe662566244c"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">115</ATT>
+            <ATT name="LineNumber">128</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="" mc="Standard.Message" uid="d8d0c5a9-de05-477d-ac18-9f57844d811a"/>
+                <ID name="EnvoyerInformation()" mc="Standard.Message" uid="d8d0c5a9-de05-477d-ac18-9f57844d811a"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[3]]></ATT>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Sequence"><![CDATA[4]]></ATT>
+                  <ATT name="Name"><![CDATA[EnvoyerInformation()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -193,7 +193,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionSpecification" uid="df0771e3-2b87-4f16-9155-59c5a8cc3391"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">81</ATT>
+            <ATT name="LineNumber">94</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -213,7 +213,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="fc8b8287-1980-4e67-8468-85160916cee6"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">115</ATT>
+            <ATT name="LineNumber">128</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -228,20 +228,20 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="1359bc24-f0eb-4456-af1a-14f80918ad8d"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">199</ATT>
+            <ATT name="LineNumber">218</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="" mc="Standard.Message" uid="4286915e-c09f-483b-88ad-0eda5ca39b19"/>
+                <ID name="PrendreUnePhoto()" mc="Standard.Message" uid="4286915e-c09f-483b-88ad-0eda5ca39b19"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[4]]></ATT>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Sequence"><![CDATA[5]]></ATT>
+                  <ATT name="Name"><![CDATA[PrendreUnePhoto()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -263,7 +263,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="c78eed8d-bc79-4b34-b1a4-8192b1c4a812"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">199</ATT>
+            <ATT name="LineNumber">218</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -278,20 +278,20 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="dd7f323c-a708-4c0b-9893-6c2908d3d9d5"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">214</ATT>
+            <ATT name="LineNumber">245</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="" mc="Standard.Message" uid="da9d26f9-eb63-48f3-a2e0-5570a85101d4"/>
+                <ID name="StockerDansBDD()" mc="Standard.Message" uid="da9d26f9-eb63-48f3-a2e0-5570a85101d4"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[5]]></ATT>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Sequence"><![CDATA[6]]></ATT>
+                  <ATT name="Name"><![CDATA[StockerDansBDD()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -313,7 +313,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="c6f2fa73-b2f0-4895-9cf6-40e3ea2f134f"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">216</ATT>
+            <ATT name="LineNumber">247</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -333,7 +333,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="faa09c4a-a8fe-4db6-b306-dceece8a8d13"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">245</ATT>
+            <ATT name="LineNumber">276</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -348,7 +348,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionSpecification" uid="3e4c59bb-6ad3-464c-a7d3-5ec5df0a4a1e"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">216</ATT>
+            <ATT name="LineNumber">247</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -369,7 +369,7 @@
           <ID name="CombinedFragment" mc="Standard.CombinedFragment" uid="a1c09e01-7396-4888-bf8d-90b60e0ec7d0"/>
           <ATTRIBUTES>
             <ATT name="Operator">AltOp</ATT>
-            <ATT name="LineNumber">167</ATT>
+            <ATT name="LineNumber">168</ATT>
             <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -379,8 +379,8 @@
                 <ID name="" mc="Standard.InteractionOperand" uid="dcb05620-acf3-4609-8f63-f6c2533c4da2"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[Si l'élève emprunte un objet]]></ATT>
-                  <ATT name="EndLineNumber">274</ATT>
-                  <ATT name="LineNumber">167</ATT>
+                  <ATT name="EndLineNumber">361</ATT>
+                  <ATT name="LineNumber">168</ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -396,6 +396,96 @@
               </REFOBJ>
               <REFOBJ>
                 <ID name="Raspberry pi" mc="Standard.Lifeline" uid="e2ca84a8-e23d-4d0f-bb96-c712168c3d3e"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="c661ca9f-bc29-49f2-a59b-0e5189bec75a"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">53</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="PasserSaCarte()" mc="Standard.Message" uid="94b15ac2-f3b4-49c0-85ab-c8d1992fee89"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Sequence"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[PasserSaCarte()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="a03118f1-b3ff-4f95-b71a-f8f168371fdf"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="UnEleve" mc="Standard.Lifeline" uid="3777354e-52a1-433d-8539-62191811b5a8"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="a03118f1-b3ff-4f95-b71a-f8f168371fdf"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">53</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="Standard.ExecutionSpecification" uid="80bda09e-f13f-4bfc-8d26-9b979e2d0953"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Lecteur de carte" mc="Standard.Lifeline" uid="6f7bdd01-65d1-4695-8914-3789932d6a5a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="33a68517-66fc-42bc-ab46-40009c63a1b7"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">113</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Lecteur de carte" mc="Standard.Lifeline" uid="6f7bdd01-65d1-4695-8914-3789932d6a5a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionSpecification" uid="80bda09e-f13f-4bfc-8d26-9b979e2d0953"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">53</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="33a68517-66fc-42bc-ab46-40009c63a1b7"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Lecteur de carte" mc="Standard.Lifeline" uid="6f7bdd01-65d1-4695-8914-3789932d6a5a"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -418,7 +508,13 @@
             <ATT name="Name"><![CDATA[Raspberry pi]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="Raspberry pi" mc="Standard.BindableInstance" uid="a1570211-79bf-4d0d-bba1-cbf3fdb50db8"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
           <ID name="Serveur BDD" mc="Standard.Lifeline" uid="d0bb1108-6a6a-4bbe-b0c6-a9bb2d853fca"/>
@@ -438,6 +534,21 @@
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="UnEleve" mc="Standard.Lifeline" uid="3777354e-52a1-433d-8539-62191811b5a8"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[UnEleve]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="Standard.BindableInstance" uid="bb4995e7-a4f7-416c-8324-b7a4ecde423a"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedCollaboration">
         <OBJECT>
@@ -451,7 +562,38 @@
             <ATT name="Name"><![CDATA[locals]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="Standard.BindableInstance" uid="bb4995e7-a4f7-416c-8324-b7a4ecde423a"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Eleve" mc="Standard.Actor" uid="667832ba-89e4-4580-913b-fc67c6bd54b6"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Raspberry pi" mc="Standard.BindableInstance" uid="a1570211-79bf-4d0d-bba1-cbf3fdb50db8"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[Raspberry pi]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Product">
