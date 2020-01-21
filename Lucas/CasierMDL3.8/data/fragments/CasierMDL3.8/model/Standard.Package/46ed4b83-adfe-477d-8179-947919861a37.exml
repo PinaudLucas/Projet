@@ -18,7 +18,12 @@
         <COMPID name="Interaction1" mc="Standard.Interaction" uid="1db4bba2-44a7-4437-be38-c3e571a5c38c"/>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="eleve" mc="Standard.Actor" uid="b1a10994-5afe-4b95-a381-375186212219"/>
+        <COMPID name="Eleve" mc="Standard.Actor" uid="b1a10994-5afe-4b95-a381-375186212219"/>
+        <COMPID name="WebCam" mc="Standard.Class" uid="00a8714d-a887-4ef6-b6b7-a7ac52a1635e"/>
+        <COMPID name="GestionnaireCasiers" mc="Standard.Class" uid="9359e828-3d9f-47f7-a8df-298184abd882"/>
+        <COMPID name="AccesBdd" mc="Standard.Class" uid="0d24a05f-0397-4a96-b238-2421a6f5ebb7"/>
+        <COMPID name="LecteurCarte" mc="Standard.Class" uid="d8905944-e68b-4901-b5a9-e34ff4bf9fd4"/>
+        <COMPID name="Ecran" mc="Standard.Class" uid="db11ac4b-c9a2-463c-ab21-e156a989d4ba"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,15 +1,17 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Eleve" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GestionnaireCasiers" version="4">
   <OBJECT>
-    <ID name="Eleve" mc="Standard.Actor" uid="b1a10994-5afe-4b95-a381-375186212219"/>
+    <ID name="GestionnaireCasiers" mc="Standard.Class" uid="9359e828-3d9f-47f7-a8df-298184abd882"/>
     <PID name="casiermdl3.8" mc="Standard.Package" uid="46ed4b83-adfe-477d-8179-947919861a37"/>
     <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Eleve]]></ATT>
+      <ATT name="Name"><![CDATA[GestionnaireCasiers]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>
