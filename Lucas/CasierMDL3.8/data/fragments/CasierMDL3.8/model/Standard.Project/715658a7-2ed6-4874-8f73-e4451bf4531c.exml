@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CasierMDL3.8" version="4">
+  <OBJECT>
+    <ID name="CasierMDL3.8" mc="Standard.Project" uid="715658a7-2ed6-4874-8f73-e4451bf4531c"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[CasierMDL3.8]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="casiermdl3.8" mc="Standard.Package" uid="46ed4b83-adfe-477d-8179-947919861a37"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="CasierMDL3.8" mc="Infrastructure.DiagramSet" uid="f8107050-5088-4ad2-b180-1aea623f85d1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
