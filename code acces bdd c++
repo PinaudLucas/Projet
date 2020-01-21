@@ -1,0 +1,22 @@
+Widget::Widget(QWidget *parent) :
+    QWidget(parent),
+    ui(new Ui::Widget)
+{
+    ui->setupUi(this);
+
+    QSqlDatabase bd;
+    bd= QSqlDatabase::addDatabase("QMYSQL");
+    bd.setHostName("172.18.58.7");
+    bd.setDatabaseName("Casier_MDL");
+    bd.setUserName("casier");
+    bd.setPassword("casier");
+
+    if(!bd.open())
+    {
+        qDebug() << "Probleme acces base de donnees " << bd.lastError();
+    }
+    else
+    {
+        qDebug() << "base de donnees ouverte";     
+    }
+}
