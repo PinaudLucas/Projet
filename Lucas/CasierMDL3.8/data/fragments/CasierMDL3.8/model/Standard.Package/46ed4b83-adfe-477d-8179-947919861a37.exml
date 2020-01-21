@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="casiermdl3.8" version="4">
+  <OBJECT>
+    <ID name="casiermdl3.8" mc="Standard.Package" uid="46ed4b83-adfe-477d-8179-947919861a37"/>
+    <PID name="CasierMDL3.8" mc="Standard.Project" uid="715658a7-2ed6-4874-8f73-e4451bf4531c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[casiermdl3.8]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="b68dd384-7e54-4212-bbac-a2d57143bc1b"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="1db4bba2-44a7-4437-be38-c3e571a5c38c"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="eleve" mc="Standard.Actor" uid="b1a10994-5afe-4b95-a381-375186212219"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
