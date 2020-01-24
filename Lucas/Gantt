@@ -1,11 +1,12 @@
 1) Lire la carte de contrôle d'accès:
     Analyse
     - Choisir le type de technologie pour la lecture de carte (NFC, code barre, code barre caché)
-    Conception et Realisation
+    Conception
+    - Test de la technologie choisie
+    Realisation
     - Programmation de la liaison entre le lecteur de carte et la raspberry
 2) Prendre des photos:
     Analyse:
-    - Choix de la qualité d'image
     - de l'encodage de l'image
     Conception
     - choix entre lien dans la base de données ou stockage dans la base de données pour stockage image
