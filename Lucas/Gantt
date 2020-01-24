@@ -8,6 +8,7 @@
 2) Prendre des photos:
     Analyse:
     - de l'encodage de l'image
+    - Discution avec l'employeur pour le stockage des photos
     Conception
     - choix entre lien dans la base de données ou stockage dans la base de données pour stockage image
     Realisation
