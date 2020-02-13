@@ -5,132 +5,126 @@ MariaDB [(none)]> create database GestionCasierMDL;
 
 MariaDB [(none)]> use GestionCasierMDL
 
-MariaDB [GestionCasierMDL]> create table utilisateurs(
-    -> idUtilisateur int(11) auto_increment primary key not null,
+/***************************************************************************************************************\
+
+MariaDB [GestionCasierMDL]> create table user(
+    -> idUser int(11) auto_increment primary key not null,
     -> nom varchar(45) not null,
     -> prenom varchar(45) not null,
     -> classe char(11) not null,
     -> telephone int(11) not null,
     -> codecarte int(11) not null,
     -> mail char(45) not null,
-    -> statutEleve char(45) not null,
-    -> emprunt int(11));
+    -> statutMDL char(45) not null);
 
 MariaDB [GestionCasierMDL]> show tables;
 +----------------------------+
 | Tables_in_GestionCasierMDL |
 +----------------------------+
-| utilisateurs               |
+| user                       |
 +----------------------------+
 
-MariaDB [GestionCasierMDL]> describe utilisateurs;
-+---------------+-------------+------+-----+---------+----------------+
-| Field         | Type        | Null | Key | Default | Extra          |
-+---------------+-------------+------+-----+---------+----------------+
-| idUtilisateur | int(11)     | NO   | PRI | NULL    | auto_increment |
-| nom           | varchar(45) | NO   |     | NULL    |                |
-| prenom        | varchar(45) | NO   |     | NULL    |                |
-| classe        | char(11)    | NO   |     | NULL    |                |
-| telephone     | int(11)     | NO   |     | NULL    |                |
-| codecarte     | int(11)     | NO   |     | NULL    |                |
-| mail          | char(45)    | NO   |     | NULL    |                |
-| statutEleve   | char(45)    | NO   |     | NULL    |                |
-| emprunt       | int(11)     | YES  |     | NULL    |                |
-+---------------+-------------+------+-----+---------+----------------+
+MariaDB [GestionCasierMDL]> describe user;
++-----------+-------------+------+-----+---------+----------------+
+| Field     | Type        | Null | Key | Default | Extra          |
++-----------+-------------+------+-----+---------+----------------+
+| idUser    | int(11)     | NO   | PRI | NULL    | auto_increment |
+| nom       | varchar(45) | NO   |     | NULL    |                |
+| prenom    | varchar(45) | NO   |     | NULL    |                |
+| classe    | char(11)    | NO   |     | NULL    |                |
+| telephone | int(11)     | NO   |     | NULL    |                |
+| codeCarte | int(11)     | NO   |     | NULL    |                |
+| mail      | char(45)    | NO   |     | NULL    |                |
+| statutMDL | char(45)    | NO   |     | NULL    |                |
++-----------+-------------+------+-----+---------+----------------+
 
-MariaDB [GestionCasierMDL]> create table materiels(
+/***************************************************************************************************************\
+
+MariaDB [GestionCasierMDL]> create table materiel(
     -> idObjet int(11) auto_increment primary key not null,
     -> nomObjet varchar(45) not null,
-    -> statut char(45) not null,
-    -> emplacement char(20) not null,
-    -> DureeEmprunt int(11));
+    -> dureeEmprunt int(11));
 
 MariaDB [GestionCasierMDL]> show tables;
 +----------------------------+
 | Tables_in_GestionCasierMDL |
 +----------------------------+
-| materiels                  |
-| utilisateurs               |
+| materiel                   |
+| user                       |
 +----------------------------+
 
-MariaDB [GestionCasierMDL]> describe materiels;
+MariaDB [GestionCasierMDL]> describe materiel;
 +--------------+-------------+------+-----+---------+----------------+
 | Field        | Type        | Null | Key | Default | Extra          |
 +--------------+-------------+------+-----+---------+----------------+
 | idObjet      | int(11)     | NO   | PRI | NULL    | auto_increment |
 | nomObjet     | varchar(45) | NO   |     | NULL    |                |
-| statut       | char(45)    | NO   |     | NULL    |                |
-| emplacement  | char(20)    | NO   |     | NULL    |                |
-| DureeEmprunt | int(11)     | YES  |     | NULL    |                |
+| dureeEmprunt | int(11)     | YES  |     | NULL    |                |
 +--------------+-------------+------+-----+---------+----------------+
 
-MariaDB [GestionCasierMDL]> 
+/***************************************************************************************************************\
 
-<foreign key(emprunt) references materiels(idObjet)>
-
-
-/**************************************************************************************************************************************************\
-MariaDB [GestionCasierMDL]> create table compte(
-    -> idCompte int(11) auto_increment primary key not null,
-    -> identifiant char(45) not null,
-    -> mdp char(45) not null,
-    -> statut char(45)not null);
+MariaDB [GestionCasierMDL]> create table casier(
+    -> idCasier int(11) auto_increment primary key not null,
+    -> idObjet int(11) not null,
+    -> statut char(45) not null,
+    -> etat char(45) not null,
+    -> nomCasier varchar(45) not null);
 
 MariaDB [GestionCasierMDL]> show tables;
 +----------------------------+
 | Tables_in_GestionCasierMDL |
 +----------------------------+
-| compte                     |
-| materiels                  |
-| utilisateurs               |
+| casier                     |
+| materiel                   |
+| user                       |
 +----------------------------+
 
-MariaDB [GestionCasierMDL]> describe compte;
-+-------------+----------+------+-----+---------+----------------+
-| Field       | Type     | Null | Key | Default | Extra          |
-+-------------+----------+------+-----+---------+----------------+
-| idCompte    | int(11)  | NO   | PRI | NULL    | auto_increment |
-| identifiant | char(45) | NO   |     | NULL    |                |
-| mdp         | char(45) | NO   |     | NULL    |                |
-| statut      | char(45) | NO   |     | NULL    |                |
-+-------------+----------+------+-----+---------+----------------+
+MariaDB [GestionCasierMDL]> describe casier;
++-----------+-------------+------+-----+---------+----------------+
+| Field     | Type        | Null | Key | Default | Extra          |
++-----------+-------------+------+-----+---------+----------------+
+| idCasier  | int(11)     | NO   | PRI | NULL    | auto_increment |
+| idObjet   | int(11)     | NO   |     | NULL    |                |
+| statut    | char(45)    | NO   |     | NULL    |                |
+| etat      | char(45)    | NO   |     | NULL    |                |
+| nomCasier | varchar(45) | NO   |     | NULL    |                |
++-----------+-------------+------+-----+---------+----------------+
 
-MariaDB [GestionCasierMDL]> create table historique(
-idEmprunt int(11) auto_increment primary key not null,
-objet char(45) not null,
-nomEleve varchar(45) not null,
-dateEmprunt char(45));
+/***************************************************************************************************************\
+
+MariaDB [GestionCasierMDL]> create table emprunt(
+    -> idEmprunt int(11) auto_increment primary key not null,
+    -> idObjet int(11) not null,
+    -> idUser int(11) not null,
+    -> date int(11));
 
 MariaDB [GestionCasierMDL]> show tables;
 +----------------------------+
 | Tables_in_GestionCasierMDL |
 +----------------------------+
-| compte                     |
-| historique                 |
-| materiels                  |
-| utilisateurs               |
+| casier                     |
+| emprunt                    |
+| materiel                   |
+| user                       |
 +----------------------------+
 
-MariaDB [GestionCasierMDL]> describe historique;
-
-+-------------+-------------+------+-----+---------+----------------+
-| Field       | Type        | Null | Key | Default | Extra          |
-+-------------+-------------+------+-----+---------+----------------+
-| idEmprunt   | int(11)     | NO   | PRI | NULL    | auto_increment |
-| objet       | char(45)    | NO   |     | NULL    |                |
-| nomEleve    | varchar(45) | NO   |     | NULL    |                |
-| dateEmprunt | char(45)    | YES  |     | NULL    |                |
-+-------------+-------------+------+-----+---------+----------------+
+MariaDB [GestionCasierMDL]> describe emprunt;
++-----------+---------+------+-----+---------+----------------+
+| Field     | Type    | Null | Key | Default | Extra          |
++-----------+---------+------+-----+---------+----------------+
+| idEmprunt | int(11) | NO   | PRI | NULL    | auto_increment |
+| idObjet   | int(11) | NO   |     | NULL    |                |
+| idUser    | int(11) | NO   |     | NULL    |                |
+| date      | int(11) | YES  |     | NULL    |                |
++-----------+---------+------+-----+---------+----------------+
 
 MariaDB [GestionCasierMDL]> 
 
 
-/*****************************************************************************************************************************************************\
-Dans le cadre de notre projet, nous avons réalisé ainsi la base de données afin qu’elleconvienne à notre code. Nous allons expliquer pas à pas les tables.
 
-La table «utilisateurs» permet de 
 
-La table «materiels» permet de 
+
 
 
 
