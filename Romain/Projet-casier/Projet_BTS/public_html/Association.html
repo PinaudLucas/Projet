@@ -1,0 +1,48 @@
+<html>
+    <head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="newcss.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+<h2>Glisser déposer l'objet dans le casier</h2>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="https://zupimages.net/up/20/06/okwr.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Liste des Objets
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Calculatrice</a>
+      <a class="dropdown-item" href="#">Ballon de foot</a>
+      <a class="dropdown-item" href="#">Raquette de ping pong</a>
+    </div>
+  </div>
+</body>
+</html>
