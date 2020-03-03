@@ -9,3 +9,7 @@
 ## Lecteur de carte
 
   mode USB CDC Host en format ITF
+
+## Camera
+
+  sudo apt-get install libpulse-dev
