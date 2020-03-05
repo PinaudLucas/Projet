@@ -6,10 +6,10 @@ Widget::Widget(QWidget *parent) :
 
     QSqlDatabase bd;
     bd= QSqlDatabase::addDatabase("QMYSQL");
-    bd.setHostName("172.18.58.7");
-    bd.setDatabaseName("Casier_MDL");
-    bd.setUserName("casier");
-    bd.setPassword("casier");
+    bd.setHostName("172.18.58.14");
+    bd.setDatabaseName("GestionCasierMDL");
+    bd.setUserName("snir");
+    bd.setPassword("snir");
 
     if(!bd.open())
     {
