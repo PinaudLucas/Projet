@@ -13,3 +13,7 @@
 ## Camera
 
   sudo apt-get install libpulse-dev
+ 
+## Bdd
+
+https://devanswers.co/problem-php-7-2-phpmyadmin-warning-in-librariessql-count/
