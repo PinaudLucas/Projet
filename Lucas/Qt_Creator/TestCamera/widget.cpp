@@ -25,5 +25,5 @@ Widget::~Widget()
 }
 void Widget::on_pushButton_Capturer_clicked()
 {
-    imageCapture->capture("/home/USERS/ELEVES/SNIR2018/lpinaud/Images/capture.jpg");
+    imageCapture->capture("C:/Users/Lucas/Pictures/PhotoCameraQt/capture.jpg");
 }
